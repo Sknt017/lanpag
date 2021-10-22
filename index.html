@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landpag</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="conpag" style="display: flex;">
+    <div class="mainlist">
+        <h1><a href="javascript:showmain()">Atributos de Calidad</a></h1>
+        <br>
+        <div>
+            <ul>
+                <!-- <li><button onclick="">ITEM1</button></li>
+                <br> -->
+                <li><button onclick="show2()">Desplagabilidad</button></li>
+                <br>
+                <li><button onclick="show3()">Disponibilidad</button></li>
+                <br>
+                <li><button onclick="show4()">Escalabilidad</button></li>
+                <br>
+                <li><button onclick="show5()">Interoperabilidad</button></li>
+                <br>
+                <li><button onclick="show6()">Modificabilidad</button></li>
+                <br>
+                <li><button onclick="show7()">Rendimiento</button></li>
+                <br>
+                <li><button onclick="show8()">Seguridad</button></li>
+                <br>
+                <li><button onclick="show9()">Usabilidad</button></li>
+                <br>
+            </ul>
+        </div>
+    </div>
+    <div class="items">
+    <div class="item1" id="item1">
+        <div class="ti">
+            <h2>Atributos de Calidad        </h2>
+            <span class="material-icons">
+                verified
+                </span> 
+        </div>
+        <p>Por: David Santiago</p>
+        <p>Aprendiz SENA</p>
+        <p>Ultima actualizacion: 23 - 10 - 2021</p>
+        <span class="material-icons" id="MIwall">
+            verified
+            </span> 
+    </div>
+    <div class="item2" id="item2">
+        <h2>Desplagabilidad</h2>
+        <p>desplegabilidad es la facilidad de desplegar una aplicación en producción</p>
+        <br>
+        <p>el escenario de despliegue es el más común de las tácticas a la hora de desplegar un nuevo proyecto ya que este determina cómo se va a mostrar el sistema al publico</p>
+        <br>
+        <p>desplegabilidad es una táctica única y no tiene más tácticas que la componen</p>
+        <span class="material-icons" id="MIwall">
+            file_download
+            </span>
+    </div>
+    <div class="item3" id="item3">
+        <h2>Disponibilidad</h2>
+        <p>disponibilidad es la táctica que determina los periodos de tiempo que está disponible un sistema</p>
+        <br>
+        <p>los escenarios de disponibilidad son todos aquellos en los que se determina todo el estado del sistema, si se cayó o si toca restablecerlo</p>
+        <br>
+        <p>disponibilidad depende de factores como el detectar, recuperarse y prevenir  de fallas</p>
+        <span class="material-icons" id="MIwall">
+            pending_actions
+            </span>
+    </div>
+    <div class="item4" id="item4">
+        <h2>Escalabilidad</h2>
+        <p>escalabilidad es la cantidad que solicitudes que puede manejar un sistema exitosamente</p>
+        <br>
+        <p>un escenario donde se puede representar escalabilidad es un monitoreo de las cargas que recibe el sistema en su momento y se detectaría cualquier sobrecarga o inestabilidad </p>
+        <br>
+        <p>escalabilidad es una táctica única, no dispone de más tácticas</p>
+        <span class="material-icons" id="MIwall">
+            trending_up
+            </span>
+    </div>
+    <div class="item5" id="item5">
+        <h2>Interoperabilidad</h2>
+        <p>interoperabilidad es la capacidad de un sistema de intercambiar información entre dos o más sistemas </p>
+        <br>
+        <p>en interoperabilidad se podría describir el constante monitoreo de los sistemas al momento de intercambiar información y se administra si la información se trasladó correctamente</p>
+        <br>
+        <p>interoperabilidad tiene factores de localización, gestionar interfaces y medir tiempos de respuesta</p>
+               <span class="material-icons" id="MIwall">
+                swap_horiz
+            </span>
+    </div>
+    <div class="item6" id="item6">
+        <h2>Modificabilidad</h2>
+        <p>modificabilidad es la táctica de un sistema para aceptar cambios y de añadir funcionalidades</p>
+        <br>
+        <p>en  modificabilidad se toma en cuenta cuando el sistema se añaden nuevas funciones y se maneja como va a tomar el cambio el sistema y si hay algun rango de error</p>
+        <br>
+        <p>modificabilidad usa tácticas como reducir módulos,aumentar cohesión y reducir acoplamientos</p>
+               <span class="material-icons" id="MIwall">
+                handyman
+            </span>
+    </div>
+    <div class="item7" id="item7">
+        <h2>Rendimiento</h2>
+        <p>rendimiento es el desempeño del sistema y los recursos que utiliza</p>
+        <br>
+        <p>en  rendimiento se utilizaria en un escenario donde el se compruebe si un sistema soporto las diferentes pruebas de rendimiento y no presenta inestabilidades</p>
+        <br>
+        <p>rendimiento usa características como latencia, respuesta y control de recursos</p>
+               <span class="material-icons" id="MIwall">
+                cached
+            </span>
+    </div>
+    <div class="item8" id="item8">
+        <h2>Seguridad</h2>
+        <p>La seguridad es una medida del sistema que se utiliza para proteger datos y otros tipos de información de sistema contra accesos no deseados </p>
+        <br>
+        <p>Este tipo de escenarios se pueden implementar en todo tipo de cuentas informáticas como correos electrónicos o cuentas bancarias y para proteger la información de estas se implementan </p>
+        <br>
+        <p>Las tácticas de seguridad se dividen en cuatro tipos: Detectar Ataques, Resistir ataques, Reaccionar a ataques, Recuperarse de los ataques</p>
+               <span class="material-icons" id="MIwall">
+                lock
+            </span>
+    </div>
+    <div class="item9" id="item9">
+        <h2>Usabilidad</h2>
+        <p>usabilidad es como un sistema interactúa con un usuario y cual es la facilidad de uso</p>
+        <br>
+        <p>en usabilidad se usaria en escenarios en los que el sistema tenga interacciones con el usuario como interfaces </p>
+        <br>
+        <p>usabilidad  usa tácticas como cancelar, deshacer, pausar o reanudar y agregar y se describen como sistemas de apoyo y de soporte</p>
+               <span class="material-icons" id="MIwall">
+                ads_click
+            </span>
+    </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
